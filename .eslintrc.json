@@ -1,0 +1,19 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "rules": {
+        "eqeqeq": ["error", "always"],
+        "semi": ["error", "always"],
+        "quotes": ["error", "double"],
+        "editor.codeActionsOnSave": {
+           "source.fixAll.eslint": true
+        }   
+    }
+}

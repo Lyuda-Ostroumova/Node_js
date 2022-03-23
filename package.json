@@ -1,0 +1,30 @@
+{
+  "name": "first_package",
+  "version": "1.0.0",
+  "description": "plugin installation, debugger configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lyuda-Ostroumova/Node_js.git"
+  },
+  "keywords": [
+    "GitLens",
+    "Prettier",
+    "Eslint",
+    "Beautify"
+  ],
+  "author": "Lostroumova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lyuda-Ostroumova/Node_js/issues"
+  },
+  "homepage": "https://github.com/Lyuda-Ostroumova/Node_js#readme",
+  "devDependencies": {
+    "beautify": "^0.0.8",
+    "eslint": "^8.11.0",
+    "prettier": "^2.6.0"
+  }
+}
