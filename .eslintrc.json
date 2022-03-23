@@ -2,18 +2,22 @@
     "env": {
         "browser": true,
         "es2021": true
-    },
+    },    
     "extends": "eslint:recommended",
     "parserOptions": {
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
     "rules": {
-        "eqeqeq": ["error", "always"],
-        "semi": ["error", "always"],
-        "quotes": ["error", "double"],
-        "editor.codeActionsOnSave": {
-           "source.fixAll.eslint": true
-        }   
-    }
+        "eqeqeq":"error",
+        "semi": "error",
+        "quotes": "error",
+        "indent": "error",
+        "no-multi-spaces": "error",
+        "space-in-parens": "error",
+        "no-multiple-empty-lines": "error",
+        "no-debugger": "off"
+        }
+
+
 }
